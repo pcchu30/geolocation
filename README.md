@@ -1,5 +1,5 @@
 # geolocation
-kalman filter
+本 repo 完成了 Basic 和 Advance任務，在 main() 中有展示。
 
 ## Basic 任務
 在 main() 中執行 Unit Test，testPositionTable(); 其中包含所有 Basic 任務。  
@@ -8,7 +8,7 @@ kalman filter
 ## Advance 任務
 
 ### 任務一 (用 Kalman Filter 濾除雜訊與調整位置)
-每一個時間單位，抓9個點，每個點各含 x 和 y 座標，所以共有18個 measurements，類似 sensor fusion  
+每抓9個點為一個時間單位，每個點各含 x 和 y 座標，所以共有18個 measurements，類似 sensor fusion 用18個 measurements來估計 hidden states。   
 route_user_1 result
 ![alt text](https://github.com/pcchu30/static/blob/master/images/geolocation/advanced%20_mission_I/advanced_I_user_1.png?raw=true)
 route_user_1 result 和 原始數據
